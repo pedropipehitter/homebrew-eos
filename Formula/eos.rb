@@ -2,7 +2,7 @@ class Eos < Formula
   desc "CLI for managing ETC Eos Family Software release downloads"
   homepage "https://github.com/pedropipehitter/eos-cli"
   url "https://github.com/pedropipehitter/eos-cli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "525b09b22ebb0db56c8b389f38fb986d53b24838fe04116679383101b37546b1"
+  sha256 "b9a4452c0f5d9fd7099833f05a53f9cf5afbf355f7379740c0600b7aa98e91af"
   license "MIT"
 
   depends_on "gh"
