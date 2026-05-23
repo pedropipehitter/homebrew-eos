@@ -15,7 +15,7 @@ See [eos-cli](https://github.com/pedropipehitter/eos-cli) for the full command r
 
 ```bash
 eos list                          # list available releases
-eos get 3.3.6                     # download Mac .dmg for v3.3.6
+eos get 3.3.6                     # download Mac .pkg for v3.3.6
 eos get --pc 3.3.6                # download Windows .exe for v3.3.6
 eos latest                        # download the newest release
 eos latest 2                      # newest in the v2.x line
@@ -25,7 +25,7 @@ eos clean                         # keep newest local version, delete the rest
 
 ## Note on access
 
-The actual `.dmg` and `.exe` files live in a private GitHub repo (`pedropipehitter/eos-software`). The CLI requires `gh` (GitHub CLI) and access to that repo. If you don't have access, the download commands will fail; the source is open as a reference for similar private-release-management patterns.
+The actual `.pkg` and `.exe` files live in a private GitHub repo (`pedropipehitter/eos-software`). The CLI requires `gh` (GitHub CLI) and access to that repo. If you don't have access, the download commands will fail; the source is open as a reference for similar private-release-management patterns.
 
 ## Formula
 
